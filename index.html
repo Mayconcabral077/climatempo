@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Goggle fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+         
+    <!-- Font-awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./assents/css/style.css">
+    <script src="./assents/js/main.js" defer></script>
+    <title>Clima Agora</title>
+</head>
+<body>
+<header>
+        <time class="horas"></time> 
+        <span class="dt-dia"></span>
+</header>
+
+<main>
+    <form>
+        <input type="text" placeholder="Consulte o clima de sua cidade" >
+
+        <button type="submit" disabled>
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </button>
+    </form>
+
+    <div class="container-informations">
+        <div class="grau">
+            <span id="temp-graus"></span>
+            <span>ºC</span>
+        </div>
+        
+            <div class="infor-diverso">
+                
+                <div class="local">
+                    <i class="fa-solid fa-location-dot fa-bounce"></i>
+                    <span id="name-city"></span>             
+                </div>
+
+                    <div class="infor-complementares">
+                    
+                        <div class="infor-cond-clima">
+                            <span id="cond-clima"></span>
+                            <img src="http://openweathermap.org/img/wn/01d.png" width="60px" height="60px" alt="" id="img-cond-clima">
+                        </div>
+
+                        <div class="infor-adcionais">
+
+                            <div class="box-hum">
+                                <i class="fa-solid fa-droplet"></i>
+                                <span id="umidade"></span>
+                            </div>
+                            
+                            <div class="box-vel">
+                                <i class="fa-solid fa-wind"></i>
+                                <span id="velox"></span>
+                            </div>
+
+                        </div>
+                </div>
+            </div>
+    </div>
+</main>
+
+<footer><span>Press F5 para atualizar a página..</span></footer>
+</body>
+</html>
