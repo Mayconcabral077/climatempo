@@ -1,7 +1,7 @@
 
 
 
-<div align="center"><h1><a href="https://climatempo-delta.vercel.app/">Clima Tempo Project</a> </h1></div>
+<div align="center"><h1><a href="https://climatempo-delta.vercel.app/">Clima Agora</a> </h1></div>
 
 
 ![descktop view](https://user-images.githubusercontent.com/105744700/232251565-36858e16-0a2f-44ce-add0-0f7b8c3899a7.png)
@@ -11,8 +11,8 @@
 
 <h2> Sobre o Projeto: </h2>
 
-   <p> O Clima Tempo Project é uma interface construida totalmente por mim. Procurei inspirações em diversos layouts, e criar algo unico. Nela 
-    eu adcionei um campo relogio em tempo real, e outro para a data do dia, semana e mês além do campo de busca</p>
+   <p> O Clima Agora é uma interface construida totalmente por mim. Procurei inspirações em diversos layouts, e criar algo unico. Nela 
+    eu adcionei um campo relógio em tempo real, e outro para a data do dia, semana e mês além do campo de busca</p>
 
   
   Neste desafio usei as tecnicas do CSS flex-box para o alinhamentos e pratiquei a responsividade em todo o layout. Html usei as tags semânticas, 
